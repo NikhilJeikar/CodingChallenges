@@ -66,6 +66,6 @@ for TestCase in range(TestCases):
     print(f"Case #{TestCase+1}: {Cost}")
 
 """
-Test Case 1 and 2 solved 
-Test case 3 pending
+Test Set 1 and 2 solved 
+Test Set 3 pending
 """
