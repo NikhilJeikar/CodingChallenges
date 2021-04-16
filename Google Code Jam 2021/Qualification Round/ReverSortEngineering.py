@@ -68,7 +68,7 @@ for TestCase in range(TestCases):
             C = C - Min
             Buffer = Sorted[i:i+Min+1]
             Buffer.reverse()
-            Sorted = Sorted[0:i] + Buffer + Sorted[i+Min+1:]
+            Sorted = Sorted[:i] + Buffer + Sorted[i+Min+1:]
 
         Str = " ".join(str(i+1) for i in Sorted)
         print(f"Case #{TestCase + 1}: {Str}")
