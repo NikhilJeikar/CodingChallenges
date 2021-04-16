@@ -10,9 +10,7 @@ for TestCase in range(TestCases):
         Min = Inputs.index(Min)
         Buffer = Inputs[i:Min + 1]
         Buffer.reverse()
-        # print("Buffer" + str(Buffer))
         Inputs = Inputs[:i] + Buffer + Inputs[Min + 1:]
-        # print(Inputs)
         Cost = Cost + 1 + Min - i
     print(f"Case #{TestCase+1}: {Cost}")
 
@@ -27,6 +25,6 @@ Test case
 7 6 5 4 3 2 1
 
 1
-4
-4 2 1 3
+7
+7 5 6 3 1 2 4
 """
